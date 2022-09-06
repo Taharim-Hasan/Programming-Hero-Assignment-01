@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    height: 620px;
+    padding-bottom: 200px;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 1%;
+}
+.half-width img{
+    padding-top: 15%;
+    padding-right: 10%;
+    width: 90%;
+}
+.top-text-div{
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 0;
+}
+.name-color{
+    font-size: 50px;
+    color: salmon;
+}
+.para-color{
+    color: rgb(50, 50, 50);
+}
+.hire-bt{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(45deg,salmon,tomato);
+    padding: 2% 5%;
+    border-color: 2px solid black;
+    border-radius: 5px;
+}
+.bio-div{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.bio-div img{
+    padding-top: 6%;
+    padding-left: 3%;
+    width: 90%;
+}
+.bio{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cv-dow{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 2% 4%;
+    background-image: linear-gradient(45deg,#f73962, #ff0037);
+}
+.bio-text{
+    padding-top: 12%;
+    padding-left: 1%;
+}
+.work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    height: 300px;
+}
+.work h1{
+    font-size: 30px;
+    text-align: center;
+}
+.work-img{
+    width: 25%;
+    float: left;
+    margin-left: 4%;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+.work-img img{
+    width: 100%;
+}
+.work-img img:hover{
+    transform: scale(1.15);
+}
+.client-say{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 720px;
+}
+.client-text h1{
+    text-align: center;
+    font-size: 30px;
+}
+.review-box{
+    box-shadow: 2px 1px 30px rgb(170, 165, 165);
+    float: left;
+    height: 50%;
+    width: 27%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 2%;
+    padding-left: 1%;
+    padding-right: 1%; 
+}
+.review-box img{
+    width: 30%;
+    padding-top: 2%;
+    
+}
+.review-pos{
+    margin-left: 5%;
+    height: 80%;
+}
+.hal-text{
+    font-size: 65%;
+}
+.box-wid{
+    height: 20px;
+    text-align: center;
+    margin-top: -6%;
+    margin-left: 30%;
+}
+.mail{
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    background-image: linear-gradient(90deg, rgb(248, 8, 168), rgb(252, 1, 76));
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.fotter{
+    text-align: center;
+}
